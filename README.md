@@ -4,7 +4,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Web sencilla</title>
-<link rel="stylesheet" href="estilos.css">
+    <style>
 body {
     font-family: "Times New Roman", serif;
     margin: 0;
@@ -104,6 +104,7 @@ footer {
     padding-top: 10px;
 }
 
+</style>
 
 </head>
  
