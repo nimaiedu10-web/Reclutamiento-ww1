@@ -5,6 +5,104 @@
 <meta charset="UTF-8">
 <title>Web sencilla</title>
 <link rel="stylesheet" href="estilos.css">
+body {
+    font-family: "Times New Roman", serif;
+    margin: 0;
+    background-image: url("https://image.slidesdocs.com/responsive-images/background/texture-of-grungy-cardboard-with-worn-out-paper-sheet-powerpoint-background_e19ebd09a3__960_540.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    color: #2b1d0e; /* Color tinta oscura */
+}
+.contenedor {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 40px;
+    background: rgba(245, 222, 179, 0.85);
+    border: 3px solid #3b2a1a;
+    box-shadow: 0 0 25px rgba(0,0,0,0.6);
+    position: relative;
+}
+.contenedor::before {
+    content: "CONFIDENCIAL";
+    position: absolute;
+    top: 20px;
+    right: -40px;
+    transform: rotate(-25deg);
+    font-size: 40px;
+    color: rgba(120, 0, 0, 0.4);
+    border: 3px solid rgba(120, 0, 0, 0.4);
+    padding: 10px 20px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+header {
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #3b2a1a;
+}
+
+header h1 {
+    font-size: 32px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+header h2 {
+    font-size: 18px;
+    font-weight: normal;
+    margin-top: 5px;
+}
+.seccion {
+    margin: 25px 0;
+    padding: 15px;
+    border: 1px dashed #3b2a1a;
+    background: rgba(255,255,255,0.2);
+}
+
+.seccion h3 {
+    text-transform: uppercase;
+    border-bottom: 1px solid #3b2a1a;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+.especial {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.imagen img {
+    width: 160px;
+    border: 3px solid #3b2a1a;
+    padding: 3px;
+    background: #e6d3b3;
+    filter: sepia(60%) contrast(90%);
+}
+.texto {
+    flex: 1;
+    font-size: 18px;
+    line-height: 1.6;
+}
+input, textarea {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #3b2a1a;
+    background: transparent;
+    font-family: "Courier New", monospace;
+    font-size: 16px;
+    padding: 5px;
+}
+footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+    border-top: 2px solid #3b2a1a;
+    padding-top: 10px;
+}
 
 
 </head>
